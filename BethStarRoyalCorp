@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BethStarRoyal Corp | Luxury Collection</title>
+    <style>
+        :root {
+            --royal-blue: #0022FF;
+            --gold: #D4AF37;
+            --gold-bright: #FFD700;
+            --white: #FFFFFF;
+        }
+
+        body {
+            margin: 0;
+            padding: 0;
+            font-family: 'serif', 'Times New Roman', Times, serif;
+            background-color: var(--royal-blue);
+            color: var(--white);
+            text-align: center;
+        }
+
+        /* Navigation */
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 50px;
+            border-bottom: 1px solid var(--gold);
+        }
+
+        .logo-text {
+            font-weight: bold;
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        nav ul {
+            list-style: none;
+            display: flex;
+            gap: 25px;
+            margin: 0;
+        }
+
+        nav a {
+            color: var(--white);
+            text-decoration: none;
+            font-size: 0.9rem;
+        }
+
+        /* Hero Section */
+        .hero {
+            padding: 60px 20px;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .orbit-logo {
+            width: 300px;
+            height: 300px;
+            border: 2px dotted var(--gold);
+            border-radius: 50%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 30px;
+            box-shadow: 0 0 20px rgba(212, 175, 55, 0.3);
+        }
+
+        .orbit-logo h1 {
+            font-size: 1.2rem;
+            margin: 5px 0;
+            letter-spacing: 2px;
+        }
+
+        .cta-button {
+            background-color: var(--gold);
+            color: #000;
+            padding: 10px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            font-size: 0.8rem;
+            border-radius: 2px;
+            transition: background 0.3s;
+        }
+
+        .cta-button:hover {
+            background-color: var(--gold-bright);
+        }
+
+        /* Products Section */
+        .featured-header {
+            margin-top: 40px;
+            font-size: 1.5rem;
+        }
+
+        .product-grid {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            padding: 40px;
+            max-width: 1000px;
+            margin: 0 auto;
+        }
+
+        .product-card {
+            background: white;
+            padding: 20px;
+            flex: 1;
+        }
+
+        .product-card img {
+            width: 100%;
+            display: block;
+        }
+
+        /* Footer Buttons */
+        .footer-nav {
+            margin-top: 30px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+            padding-bottom: 50px;
+        }
+
+        .btn-outline {
+            border: 1px solid var(--gold);
+            padding: 8px 20px;
+            color: var(--white);
+            text-decoration: none;
+            font-size: 0.8rem;
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <div class="logo-text">👑 BethStarRoyal, Corp.</div>
+        <ul>
+            <li><a href="#">Products</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Join Teams</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+
+    <section class="hero">
+        <div class="orbit-logo">
+            <span>👑</span>
+            <h1>BETHSTARROYAL</h1>
+            <p><i>Official Royal Skincare & Fragrance</i></p>
+        </div>
+        <a href="#" class="cta-button">Explore the Collection</a>
+    </section>
+
+    <h2 class="featured-header">Featured Products</h2>
+
+    <div class="product-grid">
+        <div class="product-card">
+            <!-- Placeholder for your actual product image -->
+            <img src="https://via.placeholder.com/400x300/FFFFFF/0022FF?text=Product+Set+A" alt="Skincare Set">
+        </div>
+        <div class="product-card">
+            <img src="https://via.placeholder.com/400x300/FFFFFF/0022FF?text=Product+Set+B" alt="Skincare Set">
+        </div>
+    </div>
+
+    <div class="footer-nav">
+        <a href="#" class="btn-outline">Learn More</a>
+        <a href="#" class="btn-outline">Coming Soon</a>
+        <a href="#" class="btn-outline" style="background: var(--gold); color: black;">Contact Page</a>
+    </div>
+
+</body>
+</html>
