@@ -65,7 +65,8 @@
 
         .intro h2 { color: var(--royal-blue); font-size: 2rem; }
 
-        .royal-collection {
+        .royal-collection {<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ea4365ae-7893-4729-a5a4-180ab7ef27e8" />
+
             padding: 80px 20px;
             background-color: var(--royal-blue);
             color: white;
