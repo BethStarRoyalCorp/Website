@@ -47,10 +47,12 @@
             max-width: 1000px;
             margin: 40px auto;
             padding: 0 20px;
+            text-align: center;
         }
 
         .hero-image-container img {
             width: 100%;
+            max-width: 800px;
             border-radius: 8px;
             border: 3px solid var(--24k-gold);
             box-shadow: 0 10px 30px rgba(0,0,0,0.2);
@@ -65,9 +67,7 @@
 
         .intro h2 { color: var(--royal-blue); font-size: 2rem; }
 
-        .royal-collection {<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/ea4365ae-7893-4729-a5a4-180ab7ef27e8" />
-<img width="1024" height="1024" alt="image" src="https://github.com/user-attachments/assets/0f856444-a6f7-42d9-8075-2d8baf9994a0" />
-
+        .royal-collection {
             padding: 80px 20px;
             background-color: var(--royal-blue);
             color: white;
@@ -108,7 +108,8 @@
     </header>
 
     <div class="hero-image-container">
-        <img src="royal-collection.jpg" alt="BethStarRoyal Luxury Collection">
+        <!-- This is updated to match your uploaded file exactly -->
+        <img src="royal-collection" alt="BethStarRoyal Luxury Collection">
     </div>
 
     <section class="intro">
@@ -150,10 +151,4 @@
         <p>&copy; 2024 BethStarRoyal Corp. All Rights Reserved.</p>
         <div class="contact-details">
             <span style="display: block; margin-bottom: 10px;">📞 Phone: 407-502-8468</span>
-            <span style="display: block;">✉️ Info@BethStarRoyal.com</span>
-            <span style="display: block;">✉️ JoanMassiah@BethStarRoyal.com</span>
-        </div>
-    </footer>
-
-</body>
-</html>
+            <span style="display: block;">✉️ Inf
