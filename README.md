@@ -108,8 +108,8 @@
     </header>
 
     <div class="hero-image-container">
-        <!-- This is updated to match your uploaded file exactly -->
-        <img src="royal-collection" alt="BethStarRoyal Luxury Collection">
+        <!-- This now matches your new file name exactly -->
+        <img src="collection-v2.jpg" alt="BethStarRoyal Luxury Collection">
     </div>
 
     <section class="intro">
@@ -132,7 +132,7 @@
                 <h4>Hand & Feet Lotion</h4>
                 <p>24K Silk Finish</p>
             </div>
-            <div class="product-card">
+            <div class="product-card)
                 <h4>A Rapid Age Defyer</h4>
                 <p>Advanced Restoration</p>
             </div>
@@ -151,4 +151,10 @@
         <p>&copy; 2024 BethStarRoyal Corp. All Rights Reserved.</p>
         <div class="contact-details">
             <span style="display: block; margin-bottom: 10px;">📞 Phone: 407-502-8468</span>
-            <span style="display: block;">✉️ Inf
+            <span style="display: block;">✉️ Info@BethStarRoyal.com</span>
+            <span style="display: block;">✉️ JoanMassiah@BethStarRoyal.com</span>
+        </div>
+    </footer>
+
+</body>
+</html>
